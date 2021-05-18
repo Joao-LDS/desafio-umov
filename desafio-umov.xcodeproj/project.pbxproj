@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF71EA3526545DB700A430EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA3426545DB700A430EF /* AppDelegate.swift */; };
+		CF71EA3726545DB700A430EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA3626545DB700A430EF /* SceneDelegate.swift */; };
+		CF71EA3926545DB700A430EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA3826545DB700A430EF /* ViewController.swift */; };
+		CF71EA3C26545DB700A430EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF71EA3A26545DB700A430EF /* Main.storyboard */; };
+		CF71EA3E26545DB800A430EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF71EA3D26545DB800A430EF /* Assets.xcassets */; };
+		CF71EA4126545DB800A430EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF71EA3F26545DB800A430EF /* LaunchScreen.storyboard */; };
+		CF71EA4C26545DB800A430EF /* desafio_umovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA4B26545DB800A430EF /* desafio_umovTests.swift */; };
+		CF71EA5726545DB800A430EF /* desafio_umovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA5626545DB800A430EF /* desafio_umovUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF71EA4826545DB800A430EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF71EA2926545DB700A430EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF71EA3026545DB700A430EF;
+			remoteInfo = "desafio-umov";
+		};
+		CF71EA5326545DB800A430EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF71EA2926545DB700A430EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF71EA3026545DB700A430EF;
+			remoteInfo = "desafio-umov";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF71EA3126545DB700A430EF /* desafio-umov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-umov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF71EA3426545DB700A430EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF71EA3626545DB700A430EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF71EA3826545DB700A430EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF71EA3B26545DB700A430EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF71EA3D26545DB800A430EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF71EA4026545DB800A430EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF71EA4226545DB800A430EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF71EA4726545DB800A430EF /* desafio-umovTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-umovTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF71EA4B26545DB800A430EF /* desafio_umovTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafio_umovTests.swift; sourceTree = "<group>"; };
+		CF71EA4D26545DB800A430EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF71EA5226545DB800A430EF /* desafio-umovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-umovUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF71EA5626545DB800A430EF /* desafio_umovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafio_umovUITests.swift; sourceTree = "<group>"; };
+		CF71EA5826545DB800A430EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF71EA2E26545DB700A430EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF71EA4426545DB800A430EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF71EA4F26545DB800A430EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF71EA2826545DB700A430EF = {
+			isa = PBXGroup;
+			children = (
+				CF71EA3326545DB700A430EF /* desafio-umov */,
+				CF71EA4A26545DB800A430EF /* desafio-umovTests */,
+				CF71EA5526545DB800A430EF /* desafio-umovUITests */,
+				CF71EA3226545DB700A430EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF71EA3226545DB700A430EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF71EA3126545DB700A430EF /* desafio-umov.app */,
+				CF71EA4726545DB800A430EF /* desafio-umovTests.xctest */,
+				CF71EA5226545DB800A430EF /* desafio-umovUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF71EA3326545DB700A430EF /* desafio-umov */ = {
+			isa = PBXGroup;
+			children = (
+				CF71EA3426545DB700A430EF /* AppDelegate.swift */,
+				CF71EA3626545DB700A430EF /* SceneDelegate.swift */,
+				CF71EA3826545DB700A430EF /* ViewController.swift */,
+				CF71EA3A26545DB700A430EF /* Main.storyboard */,
+				CF71EA3D26545DB800A430EF /* Assets.xcassets */,
+				CF71EA3F26545DB800A430EF /* LaunchScreen.storyboard */,
+				CF71EA4226545DB800A430EF /* Info.plist */,
+			);
+			path = "desafio-umov";
+			sourceTree = "<group>";
+		};
+		CF71EA4A26545DB800A430EF /* desafio-umovTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF71EA4B26545DB800A430EF /* desafio_umovTests.swift */,
+				CF71EA4D26545DB800A430EF /* Info.plist */,
+			);
+			path = "desafio-umovTests";
+			sourceTree = "<group>";
+		};
+		CF71EA5526545DB800A430EF /* desafio-umovUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF71EA5626545DB800A430EF /* desafio_umovUITests.swift */,
+				CF71EA5826545DB800A430EF /* Info.plist */,
+			);
+			path = "desafio-umovUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF71EA3026545DB700A430EF /* desafio-umov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF71EA5B26545DB800A430EF /* Build configuration list for PBXNativeTarget "desafio-umov" */;
+			buildPhases = (
+				CF71EA2D26545DB700A430EF /* Sources */,
+				CF71EA2E26545DB700A430EF /* Frameworks */,
+				CF71EA2F26545DB700A430EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "desafio-umov";
+			productName = "desafio-umov";
+			productReference = CF71EA3126545DB700A430EF /* desafio-umov.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF71EA4626545DB800A430EF /* desafio-umovTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF71EA5E26545DB800A430EF /* Build configuration list for PBXNativeTarget "desafio-umovTests" */;
+			buildPhases = (
+				CF71EA4326545DB800A430EF /* Sources */,
+				CF71EA4426545DB800A430EF /* Frameworks */,
+				CF71EA4526545DB800A430EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF71EA4926545DB800A430EF /* PBXTargetDependency */,
+			);
+			name = "desafio-umovTests";
+			productName = "desafio-umovTests";
+			productReference = CF71EA4726545DB800A430EF /* desafio-umovTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF71EA5126545DB800A430EF /* desafio-umovUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF71EA6126545DB800A430EF /* Build configuration list for PBXNativeTarget "desafio-umovUITests" */;
+			buildPhases = (
+				CF71EA4E26545DB800A430EF /* Sources */,
+				CF71EA4F26545DB800A430EF /* Frameworks */,
+				CF71EA5026545DB800A430EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF71EA5426545DB800A430EF /* PBXTargetDependency */,
+			);
+			name = "desafio-umovUITests";
+			productName = "desafio-umovUITests";
+			productReference = CF71EA5226545DB800A430EF /* desafio-umovUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF71EA2926545DB700A430EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "João";
+				TargetAttributes = {
+					CF71EA3026545DB700A430EF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CF71EA4626545DB800A430EF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CF71EA3026545DB700A430EF;
+					};
+					CF71EA5126545DB800A430EF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CF71EA3026545DB700A430EF;
+					};
+				};
+			};
+			buildConfigurationList = CF71EA2C26545DB700A430EF /* Build configuration list for PBXProject "desafio-umov" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF71EA2826545DB700A430EF;
+			productRefGroup = CF71EA3226545DB700A430EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF71EA3026545DB700A430EF /* desafio-umov */,
+				CF71EA4626545DB800A430EF /* desafio-umovTests */,
+				CF71EA5126545DB800A430EF /* desafio-umovUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF71EA2F26545DB700A430EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF71EA4126545DB800A430EF /* LaunchScreen.storyboard in Resources */,
+				CF71EA3E26545DB800A430EF /* Assets.xcassets in Resources */,
+				CF71EA3C26545DB700A430EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF71EA4526545DB800A430EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF71EA5026545DB800A430EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF71EA2D26545DB700A430EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF71EA3926545DB700A430EF /* ViewController.swift in Sources */,
+				CF71EA3526545DB700A430EF /* AppDelegate.swift in Sources */,
+				CF71EA3726545DB700A430EF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF71EA4326545DB800A430EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF71EA4C26545DB800A430EF /* desafio_umovTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF71EA4E26545DB800A430EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF71EA5726545DB800A430EF /* desafio_umovUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF71EA4926545DB800A430EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF71EA3026545DB700A430EF /* desafio-umov */;
+			targetProxy = CF71EA4826545DB800A430EF /* PBXContainerItemProxy */;
+		};
+		CF71EA5426545DB800A430EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF71EA3026545DB700A430EF /* desafio-umov */;
+			targetProxy = CF71EA5326545DB800A430EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF71EA3A26545DB700A430EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF71EA3B26545DB700A430EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF71EA3F26545DB800A430EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF71EA4026545DB800A430EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF71EA5926545DB800A430EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF71EA5A26545DB800A430EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF71EA5C26545DB800A430EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
+				INFOPLIST_FILE = "desafio-umov/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joao.desafio-umov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF71EA5D26545DB800A430EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
+				INFOPLIST_FILE = "desafio-umov/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joao.desafio-umov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF71EA5F26545DB800A430EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
+				INFOPLIST_FILE = "desafio-umovTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joao.desafio-umovTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafio-umov.app/desafio-umov";
+			};
+			name = Debug;
+		};
+		CF71EA6026545DB800A430EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
+				INFOPLIST_FILE = "desafio-umovTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joao.desafio-umovTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafio-umov.app/desafio-umov";
+			};
+			name = Release;
+		};
+		CF71EA6226545DB800A430EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
+				INFOPLIST_FILE = "desafio-umovUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joao.desafio-umovUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "desafio-umov";
+			};
+			name = Debug;
+		};
+		CF71EA6326545DB800A430EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
+				INFOPLIST_FILE = "desafio-umovUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joao.desafio-umovUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "desafio-umov";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF71EA2C26545DB700A430EF /* Build configuration list for PBXProject "desafio-umov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF71EA5926545DB800A430EF /* Debug */,
+				CF71EA5A26545DB800A430EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF71EA5B26545DB800A430EF /* Build configuration list for PBXNativeTarget "desafio-umov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF71EA5C26545DB800A430EF /* Debug */,
+				CF71EA5D26545DB800A430EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF71EA5E26545DB800A430EF /* Build configuration list for PBXNativeTarget "desafio-umovTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF71EA5F26545DB800A430EF /* Debug */,
+				CF71EA6026545DB800A430EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF71EA6126545DB800A430EF /* Build configuration list for PBXNativeTarget "desafio-umovUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF71EA6226545DB800A430EF /* Debug */,
+				CF71EA6326545DB800A430EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF71EA2926545DB700A430EF /* Project object */;
+}
