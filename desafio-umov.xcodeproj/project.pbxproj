@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		CF71EA3526545DB700A430EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA3426545DB700A430EF /* AppDelegate.swift */; };
-		CF71EA3726545DB700A430EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA3626545DB700A430EF /* SceneDelegate.swift */; };
-		CF71EA3926545DB700A430EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA3826545DB700A430EF /* ViewController.swift */; };
-		CF71EA3C26545DB700A430EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF71EA3A26545DB700A430EF /* Main.storyboard */; };
+		CF71EA3926545DB700A430EF /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA3826545DB700A430EF /* PrincipalViewController.swift */; };
 		CF71EA3E26545DB800A430EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF71EA3D26545DB800A430EF /* Assets.xcassets */; };
 		CF71EA4126545DB800A430EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF71EA3F26545DB800A430EF /* LaunchScreen.storyboard */; };
 		CF71EA4C26545DB800A430EF /* desafio_umovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA4B26545DB800A430EF /* desafio_umovTests.swift */; };
 		CF71EA5726545DB800A430EF /* desafio_umovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA5626545DB800A430EF /* desafio_umovUITests.swift */; };
+		CF71EA652654696800A430EF /* PrincipalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA642654696800A430EF /* PrincipalViewModel.swift */; };
+		CF71EA6726546A9B00A430EF /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA6626546A9B00A430EF /* Enums.swift */; };
+		CF71EA6926546AB100A430EF /* ValorDoIngressoComDesconto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA6826546AB100A430EF /* ValorDoIngressoComDesconto.swift */; };
+		CF71EA6B26546CDE00A430EF /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA6A26546CDE00A430EF /* PrincipalView.swift */; };
+		CF71EA6D26546EA700A430EF /* GenericProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA6C26546EA700A430EF /* GenericProtocols.swift */; };
+		CF71EA6F26547CDC00A430EF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA6E26547CDC00A430EF /* CustomCell.swift */; };
+		CF71EA7126548F9800A430EF /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA7026548F9800A430EF /* Extension+Double.swift */; };
+		CF71EA7426549BD000A430EF /* PercentualDescontos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA7326549BD000A430EF /* PercentualDescontos.swift */; };
+		CF71EA7626549BDE00A430EF /* ValorDoDesconto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA7526549BDE00A430EF /* ValorDoDesconto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +44,7 @@
 /* Begin PBXFileReference section */
 		CF71EA3126545DB700A430EF /* desafio-umov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-umov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF71EA3426545DB700A430EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF71EA3626545DB700A430EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF71EA3826545DB700A430EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF71EA3B26545DB700A430EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF71EA3826545DB700A430EF /* PrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
 		CF71EA3D26545DB800A430EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF71EA4026545DB800A430EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF71EA4226545DB800A430EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		CF71EA5226545DB800A430EF /* desafio-umovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-umovUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF71EA5626545DB800A430EF /* desafio_umovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafio_umovUITests.swift; sourceTree = "<group>"; };
 		CF71EA5826545DB800A430EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF71EA642654696800A430EF /* PrincipalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewModel.swift; sourceTree = "<group>"; };
+		CF71EA6626546A9B00A430EF /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		CF71EA6826546AB100A430EF /* ValorDoIngressoComDesconto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorDoIngressoComDesconto.swift; sourceTree = "<group>"; };
+		CF71EA6A26546CDE00A430EF /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
+		CF71EA6C26546EA700A430EF /* GenericProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericProtocols.swift; sourceTree = "<group>"; };
+		CF71EA6E26547CDC00A430EF /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		CF71EA7026548F9800A430EF /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
+		CF71EA7326549BD000A430EF /* PercentualDescontos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentualDescontos.swift; sourceTree = "<group>"; };
+		CF71EA7526549BDE00A430EF /* ValorDoDesconto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorDoDesconto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,12 @@
 		CF71EA3326545DB700A430EF /* desafio-umov */ = {
 			isa = PBXGroup;
 			children = (
-				CF71EA3426545DB700A430EF /* AppDelegate.swift */,
-				CF71EA3626545DB700A430EF /* SceneDelegate.swift */,
-				CF71EA3826545DB700A430EF /* ViewController.swift */,
-				CF71EA3A26545DB700A430EF /* Main.storyboard */,
-				CF71EA3D26545DB800A430EF /* Assets.xcassets */,
-				CF71EA3F26545DB800A430EF /* LaunchScreen.storyboard */,
-				CF71EA4226545DB800A430EF /* Info.plist */,
+				CF71EA7B26549C6B00A430EF /* Support */,
+				CF71EA7A26549C4700A430EF /* Helpers */,
+				CF71EA7926549C3800A430EF /* Views */,
+				CF71EA7826549C2900A430EF /* ViewModels */,
+				CF71EA7726549C1F00A430EF /* Controllers */,
+				CF71EA7226549BC200A430EF /* Models */,
 			);
 			path = "desafio-umov";
 			sourceTree = "<group>";
@@ -126,6 +139,62 @@
 				CF71EA5826545DB800A430EF /* Info.plist */,
 			);
 			path = "desafio-umovUITests";
+			sourceTree = "<group>";
+		};
+		CF71EA7226549BC200A430EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF71EA7326549BD000A430EF /* PercentualDescontos.swift */,
+				CF71EA7526549BDE00A430EF /* ValorDoDesconto.swift */,
+				CF71EA6826546AB100A430EF /* ValorDoIngressoComDesconto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF71EA7726549C1F00A430EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF71EA3826545DB700A430EF /* PrincipalViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CF71EA7826549C2900A430EF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CF71EA642654696800A430EF /* PrincipalViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CF71EA7926549C3800A430EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF71EA6A26546CDE00A430EF /* PrincipalView.swift */,
+				CF71EA6E26547CDC00A430EF /* CustomCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF71EA7A26549C4700A430EF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CF71EA6626546A9B00A430EF /* Enums.swift */,
+				CF71EA6C26546EA700A430EF /* GenericProtocols.swift */,
+				CF71EA7026548F9800A430EF /* Extension+Double.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CF71EA7B26549C6B00A430EF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CF71EA3426545DB700A430EF /* AppDelegate.swift */,
+				CF71EA3D26545DB800A430EF /* Assets.xcassets */,
+				CF71EA3F26545DB800A430EF /* LaunchScreen.storyboard */,
+				CF71EA4226545DB800A430EF /* Info.plist */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +303,6 @@
 			files = (
 				CF71EA4126545DB800A430EF /* LaunchScreen.storyboard in Resources */,
 				CF71EA3E26545DB800A430EF /* Assets.xcassets in Resources */,
-				CF71EA3C26545DB700A430EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +327,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF71EA3926545DB700A430EF /* ViewController.swift in Sources */,
+				CF71EA7126548F9800A430EF /* Extension+Double.swift in Sources */,
+				CF71EA7626549BDE00A430EF /* ValorDoDesconto.swift in Sources */,
+				CF71EA7426549BD000A430EF /* PercentualDescontos.swift in Sources */,
+				CF71EA3926545DB700A430EF /* PrincipalViewController.swift in Sources */,
+				CF71EA6B26546CDE00A430EF /* PrincipalView.swift in Sources */,
+				CF71EA652654696800A430EF /* PrincipalViewModel.swift in Sources */,
+				CF71EA6726546A9B00A430EF /* Enums.swift in Sources */,
 				CF71EA3526545DB700A430EF /* AppDelegate.swift in Sources */,
-				CF71EA3726545DB700A430EF /* SceneDelegate.swift in Sources */,
+				CF71EA6D26546EA700A430EF /* GenericProtocols.swift in Sources */,
+				CF71EA6F26547CDC00A430EF /* CustomCell.swift in Sources */,
+				CF71EA6926546AB100A430EF /* ValorDoIngressoComDesconto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF71EA3A26545DB700A430EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF71EA3B26545DB700A430EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF71EA3F26545DB800A430EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,7 +504,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
-				INFOPLIST_FILE = "desafio-umov/Info.plist";
+				INFOPLIST_FILE = "desafio-umov/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +523,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
-				INFOPLIST_FILE = "desafio-umov/Info.plist";
+				INFOPLIST_FILE = "desafio-umov/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
