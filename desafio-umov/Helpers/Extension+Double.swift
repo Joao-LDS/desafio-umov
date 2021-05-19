@@ -9,16 +9,10 @@
 import Foundation
 
 infix operator %%: AdditionPrecedence
-infix operator %%%: AdditionPrecedence
 
 extension Double {
     static func %% (valor: Double, desconto: Double) -> Double {
         let resultado = valor * desconto / 100
-        return (resultado * 100).rounded() / 100
-    }
-    
-    static func %%% (valor: Double, desconto: Double) -> Double {
-        let resultado = valor - (valor * desconto / 100)
         return (resultado * 100).rounded() / 100
     }
 }

@@ -85,7 +85,7 @@ extension PrincipalView: ConfigurarView {
     
     func addContraints() {
         NSLayoutConstraint.activate([
-        tableView.topAnchor.constraint(equalTo: topAnchor),
+            tableView.topAnchor.constraint(equalTo: layoutMarginsGuide.topAnchor),
         tableView.leadingAnchor.constraint(equalTo: leadingAnchor),
         tableView.trailingAnchor.constraint(equalTo: trailingAnchor),
         

@@ -37,7 +37,7 @@ enum Dia: String {
 enum ValoresIngresso: Double {
     case crianca = 5.5
     case estudante = 8.0
-    case idoso = 5.0
+    case idoso = 6.0
 }
 
 struct ValoresIngressoComDesconto {

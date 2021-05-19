@@ -13,18 +13,10 @@ struct ValorDoIngressoComDesconto {
     let estudantes: Double
     let idosos: Double
     
-    static func calculaValorComDesconto(dia: Dia, estudanteComCarteirinha: Bool = false) -> ValorDoIngressoComDesconto {
-        let criancas = ValoresIngresso.crianca.rawValue %%% dia.descontos.criancas
-        
-        var estudantes: Double
-        if let descontoComCarteirinha = dia.descontos.estudantesComCarteirinha,
-            estudanteComCarteirinha {
-            estudantes =  ValoresIngresso.estudante.rawValue %%% descontoComCarteirinha
-        } else {
-            estudantes = ValoresIngresso.estudante.rawValue %%% dia.descontos.estudantes
-        }
-        
-        let idosos = ValoresIngresso.idoso.rawValue %%% dia.descontos.idosos
+    static func calculaValorComDesconto(_ valores: ValorDoDesconto) -> ValorDoIngressoComDesconto {
+        let criancas = ValoresIngresso.crianca.rawValue - valores.criancas
+        let estudantes =  ValoresIngresso.estudante.rawValue - valores.estudantes
+        let idosos = ValoresIngresso.idoso.rawValue - valores.idosos
         return ValorDoIngressoComDesconto(criancas: criancas, estudantes: estudantes, idosos: idosos)
     }
 }

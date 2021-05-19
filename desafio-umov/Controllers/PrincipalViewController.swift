@@ -65,8 +65,11 @@ class PrincipalViewController: UIViewController {
         uiController.tableView.delegate = self
         uiController.tableView.dataSource = self
         uiController.estudanteComCarteirinhaSwitch.addTarget(self, action: #selector(estudanteComCarteirinha(_:)), for: .valueChanged)
-        setupView()
         binding()
+    }
+    
+    override func loadView() {
+        self.view = uiController
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -129,18 +132,5 @@ extension PrincipalViewController: UITableViewDelegate, UITableViewDataSource {
             cell.accessoryType = .none
             viewModel.diaSelecionado = nil
         }
-    }
-}
-
-extension PrincipalViewController: ConfigurarView {
-    func addSubviews() {
-        view.addSubview(uiController)
-    }
-    
-    func addContraints() {
-        uiController.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor).isActive = true
-        uiController.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        uiController.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        uiController.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
     }
 }

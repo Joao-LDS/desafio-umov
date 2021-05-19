@@ -33,6 +33,7 @@ class PrincipalViewModel: PrincipalViewModelProtocol {
     
     func atulizaValores() {
         guard let dia = self.diaSelecionado else { return }
-        atualizaValoresNaView?(ValorDoDesconto.calculaDesconto(dia: dia, estudanteComCarteirinha: estudanteComCarteirinha), ValorDoIngressoComDesconto.calculaValorComDesconto(dia: dia, estudanteComCarteirinha: estudanteComCarteirinha))
+        let valores = ValorDoDesconto.calculaDesconto(dia: dia, estudanteComCarteirinha: estudanteComCarteirinha)
+        atualizaValoresNaView?(valores, ValorDoIngressoComDesconto.calculaValorComDesconto(valores))
     }
 }
