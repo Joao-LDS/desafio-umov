@@ -22,6 +22,9 @@
 		CF71EA7126548F9800A430EF /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA7026548F9800A430EF /* Extension+Double.swift */; };
 		CF71EA7426549BD000A430EF /* PercentualDescontos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA7326549BD000A430EF /* PercentualDescontos.swift */; };
 		CF71EA7626549BDE00A430EF /* ValorDoDesconto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71EA7526549BDE00A430EF /* ValorDoDesconto.swift */; };
+		CFB1E5E52655D837004AA994 /* PercentualDescontosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1E5E42655D837004AA994 /* PercentualDescontosTests.swift */; };
+		CFB1E5E72655DA08004AA994 /* ValorDoDescontoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1E5E62655DA08004AA994 /* ValorDoDescontoTests.swift */; };
+		CFB1E5E92655E1C9004AA994 /* ValorDoIngressoComDescontoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1E5E82655E1C9004AA994 /* ValorDoIngressoComDescontoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		CF71EA7026548F9800A430EF /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
 		CF71EA7326549BD000A430EF /* PercentualDescontos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentualDescontos.swift; sourceTree = "<group>"; };
 		CF71EA7526549BDE00A430EF /* ValorDoDesconto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorDoDesconto.swift; sourceTree = "<group>"; };
+		CFB1E5E42655D837004AA994 /* PercentualDescontosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentualDescontosTests.swift; sourceTree = "<group>"; };
+		CFB1E5E62655DA08004AA994 /* ValorDoDescontoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorDoDescontoTests.swift; sourceTree = "<group>"; };
+		CFB1E5E82655E1C9004AA994 /* ValorDoIngressoComDescontoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorDoIngressoComDescontoTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 		CF71EA4A26545DB800A430EF /* desafio-umovTests */ = {
 			isa = PBXGroup;
 			children = (
+				CFB1E5E42655D837004AA994 /* PercentualDescontosTests.swift */,
+				CFB1E5E62655DA08004AA994 /* ValorDoDescontoTests.swift */,
+				CFB1E5E82655E1C9004AA994 /* ValorDoIngressoComDescontoTests.swift */,
 				CF71EA4B26545DB800A430EF /* desafio_umovTests.swift */,
 				CF71EA4D26545DB800A430EF /* Info.plist */,
 			);
@@ -345,7 +354,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB1E5E72655DA08004AA994 /* ValorDoDescontoTests.swift in Sources */,
 				CF71EA4C26545DB800A430EF /* desafio_umovTests.swift in Sources */,
+				CFB1E5E92655E1C9004AA994 /* ValorDoIngressoComDescontoTests.swift in Sources */,
+				CFB1E5E52655D837004AA994 /* PercentualDescontosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

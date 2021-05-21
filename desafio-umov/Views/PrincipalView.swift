@@ -67,8 +67,8 @@ class PrincipalView: UIView {
     }
     
     func ajustaAlturaTableView() {
-        tableView.layoutIfNeeded()
         tableView.heightAnchor.constraint(equalToConstant: tableView.contentSize.height).isActive = true
+        tableView.layoutIfNeeded()
     }
     
 }

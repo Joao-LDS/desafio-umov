@@ -19,8 +19,8 @@ class CustomCell: UITableViewCell {
     }
     
     private func configurarCell() {
-        self.textLabel?.text = dia.rawValue
-        self.textLabel?.textColor = .black
+        textLabel?.text = dia.rawValue
+        textLabel?.textColor = .black
         backgroundColor = .white
         selectionStyle = .none
     }

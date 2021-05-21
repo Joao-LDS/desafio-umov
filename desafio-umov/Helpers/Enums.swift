@@ -29,7 +29,7 @@ enum Dia: String {
         case .sexta:
             return PercentualDescontos(criancas: 11.0, estudantes: 0.0, estudantesComCarteirinha: 35.0, idosos: 0.0)
         case .sabadoDomingoFeriado:
-            return PercentualDescontos(criancas: 0.0, estudantes: 0.0, idosos: 5.0)
+            return PercentualDescontos(criancas: 0.0, estudantes: 0.0, estudantesComCarteirinha: 0.0, idosos: 5.0)
         }
     }
 }
